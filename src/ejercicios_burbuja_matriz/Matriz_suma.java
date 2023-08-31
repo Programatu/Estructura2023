@@ -7,8 +7,6 @@ package ejercicios_burbuja_matriz;
 import java.util.Scanner;
 
 public class Matriz_suma {
-
-
     public static void main(String[] args) {
         //Elabora un algortimo que lea los numeros en una matriz de 3x3, la imprima y coloque al final el resultado de la suma por columnas
         
@@ -18,7 +16,7 @@ public class Matriz_suma {
          int resultado[][]=new int [3][3];
          
          //Llenamos la matriz 
-         System.out.println("Digite los numeros de la primera matriz");
+         System.out.println("Digite los numeros de la primera matriz ");
          for (int i = 0; i < 3; i++) {
              for (int j = 0; j < 3; j++) {
                  System.out.print("Digite un numero en la posicion ["+i+"]["+j+"] : ");
